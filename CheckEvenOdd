@@ -8,9 +8,10 @@ public class CheckEvenOdd{
     Scanner input = new Scanner(System.in);
     num = input.nextInt();
     
-    if(num % 2 == 0)
+    if(num % 2 == 0){
       System.out.println("This number is even.");
-    else
+    }else{
       System.out.println("This number is odd.");
+    }
   }
 }
